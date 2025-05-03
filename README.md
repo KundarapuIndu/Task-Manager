@@ -1,12 +1,20 @@
-# React + Vite
+Task Manager (Todo App)
+This is a simple Todo application built using React.js. The app allows you to add, delete, and mark tasks as completed. You can also convert all tasks to uppercase with a button click.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+1)Add a new task
 
-Currently, two official plugins are available:
+2)Delete tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3)Mark tasks as "done" (strike-through style)
 
-## Expanding the ESLint configuration
+4)Convert all tasks to uppercase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used:
+1)React.js
+
+2)JavaScript
+
+3)CSS for styling
+
+
