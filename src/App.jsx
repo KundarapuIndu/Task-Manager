@@ -22,11 +22,11 @@ export default function Todo() {
     setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
   };
 
-  let uppercaseAll = () => {
+  let AllDone = () => {
     setTodos((prevTasks) =>
       prevTasks.map((todo) => ({
         ...todo,
-        task: todo.task.toUpperCase(),
+        isDone:true,
       }))
     );
   };
@@ -44,7 +44,7 @@ export default function Todo() {
   //       }
   //     })
   //   );
-  // };
+  //};
 
   let markAsDone = (id) => {
     setTodos((prevTodos) =>
@@ -87,7 +87,7 @@ export default function Todo() {
           </li>
         ))}
       </ul>
-      <button onClick={uppercaseAll}>Uppercase All</button>
+      <button onClick={AllDone}>All Done</button>
     </div>
   );
 }
